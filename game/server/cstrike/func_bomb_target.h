@@ -5,6 +5,8 @@
 // $NoKeywords: $
 //=============================================================================//
 
+// SHOULD BE A DEFAULT WITHN HAMMER WITH THE CSTRIKE MOD 
+
 #include "cbase.h"
 #include "triggers.h"
 

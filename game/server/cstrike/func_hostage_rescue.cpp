@@ -4,6 +4,8 @@
 //
 //=============================================================================//
 
+// SHOULD BE A DEFAULT WITHN HAMMER WITH THE CSTRIKE MOD (IF HOSTAGE EXISTS AND IS IMPLTD.)
+
 #include "cbase.h"
 #include "triggers.h"
 
