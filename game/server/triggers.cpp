@@ -762,6 +762,13 @@ bool CTriggerHurt::HurtEntity( CBaseEntity *pOther, float damage )
 	return true;
 }
 
+void CBombTarget::Spawn()
+{
+	InitTrigger();
+	SetTouch( &CBombTarget::BombTargetTouch );
+	SetUse( &CBombTarget::BombTargetUse );
+}
+
 void CTriggerHurt::HurtThink()
 {
 	// if I hurt anyone, think again
